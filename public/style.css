@@ -1,0 +1,51 @@
+*{
+    font-family: Consolas, monaco, monospace; 
+    cursor: default;
+    user-select: none;
+}
+pre{
+    margin: 0px;
+}
+*::selection{
+    background-color: #00800080;
+}
+body{
+  background-color: #383838;
+}
+textarea{
+    font-size: 100%;
+    cursor: text;
+}
+input, button{
+    border-style: solid;
+    color: #00FF00;
+    border-color: #00FF00;
+    background-color: transparent;
+    outline: none;
+}
+input:focus, input:hover, button:hover{
+    border-color: #80FF80;
+    cursor: text;
+}
+u{
+    color: #00B000;
+}
+i{
+    color: #B00000;
+}
+u:hover{
+    color: #00FF00;
+    cursor: pointer;
+}
+.Form{
+    text-align: left;
+    padding: 14px;
+    border-color: #00FF00;
+    background-color: #000000C0;
+}
+.Form *{
+    float: left;
+    width: 90%;
+  
+    margin-top: 5px;
+}
